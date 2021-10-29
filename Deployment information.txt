@@ -1,0 +1,75 @@
+ Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29941438 (0x1c8debe)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xa1b4e0519e4fa96f3cbc04abc5a115243671c1fd047579f51ca20f17af28a639
+   > Blocks: 2            Seconds: 21
+   > contract address:    0xe4d575e9aAb5F18c51d994971EAfb5b312cf2bAC
+   > block number:        9536562
+   > block timestamp:     1635308572
+   > account:             0x39602393131d0732C6ABF4dcd90390dE0DCe3c03
+   > balance:             18.385818632068176778
+   > gas used:            245600 (0x3bf60)
+   > gas price:           1.000000016 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0002456000039296 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 9536563)
+   > confirmation number: 2 (block: 9536564)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.0002456000039296 ETH
+
+
+2_NFTCONTRACT.js
+================
+
+   Deploying 'NFTCONTRACT'
+   -----------------------
+   > transaction hash:    0xb9f61178ea18cc29c50ba299fb53af3533fac5c805dabc203efdb43e69448b0d
+   > Blocks: 2            Seconds: 23
+   > contract address:    0x6F31e9ba394224dd238E65A7298fACa1bd8936fA
+   > block number:        9536569
+   > block timestamp:     1635308677
+   > account:             0x39602393131d0732C6ABF4dcd90390dE0DCe3c03
+   > balance:             18.382854419029642009
+   > gas used:            2918300 (0x2c879c)
+   > gas price:           1.000000013 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0029183000379379 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 9536570)
+   > confirmation number: 2 (block: 9536571)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.0029183000379379 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.0031639000418675 ETH
+
+
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+- Blocks: 0            Seconds: 0
+- Saving migration to chain.
+
+truffle(rinkeby)>
